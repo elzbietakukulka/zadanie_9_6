@@ -3,7 +3,7 @@ var add = document.getElementById('addElem');// Elements with id "button"
 
 add.addEventListener('click', function() {
 	var element = document.createElement('li');
-	var liElements = document.getElementsByTagName('li');
+	var liElements = list.getElementsByTagName('li');
 	element.innerHTML = 'item' + liElements.length;
 	list.appendChild(element);
 });
